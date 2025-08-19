@@ -48,9 +48,9 @@ st.pyplot(fig)
 
 # Cross-country comparison (optional)
 if st.sidebar.checkbox("Compare Countries"):
-    benin = pd.read_csv("data/benin_clean.csv")
-    sierra = pd.read_csv("data/sierra_leone_clean.csv")
-    togo = pd.read_csv("data/togo_clean.csv")
+    benin = pd.read_csv(r"C:\Users\pc\Week-solar\data\benin_clean.csv")
+    sierra = pd.read_csv(r"C:\Users\pc\Week-solar\data\sierra_leone.csv")
+    togo = pd.read_csv(r"C:\Users\pc\Week-solar\data\togo_clean.csv")
 
     benin["Country"] = "Benin"
     sierra["Country"] = "Sierra Leone"
